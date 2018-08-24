@@ -1,0 +1,51 @@
+5f5cdaf06877d31eb2dc9033c0f4ca8934d08e04*#Chris Dunn*#chris@cidean.com*#1535049292*#Add delay at end of download image for same interval as urls.
+a057a1113d4c72feba782923f66a24a21109463d*#Chris Dunn*#chris@cidean.com*#1535049259*#Add Download of image(s) to data folder on crawl.
+54d81d0b36fc502dc223b2e398af44e2762cf422*#Chris Dunn*#chris@cidean.com*#1535048276*#Handle image type of DataMapItem in execute
+aa5711667f198138c4a4437d57e7283a835a36b7*#Chris Dunn*#chris@cidean.com*#1535047779*#Add download image function to support image scraping
+3d47debd59a0b26059e837c4ff13919895fb73c8*#Chris Dunn*#chris@cidean.com*#1535047647*#Update runner to use root folder for output
+75ae00c8b03f9cdca1ce54462a81036f85d46fd2*#Chris Dunn*#chris@cidean.com*#1535047618*#Change scraper to use timestamped data folder for output
+9795a9a85e90ae64a965516861ec9ef121b0505d*#Chris Dunn*#chris@cidean.com*#1534897811*#Add delay as a command argument
+df9e9842e174b0d8ec637798a7c2e27011a1c38e*#Chris Dunn*#chris@cidean.com*#1534882141*#Cleanup and add comments
+d3581d9bcb5c4fe0e9cceaf12a7a35c0eb63a291*#Chris Dunn*#chris@cidean.com*#1534881431*#Update with commandline usage of runner.
+07374966643429b07e5d771c111c603a49bcfa9e*#Chris Dunn*#chris@cidean.com*#1534881415*#Change assembly to "webscrape" for command line ease.
+e4f25181a40582cee85443ecaa45dd7dd3f99e84*#Chris Dunn*#chris@cidean.com*#1534881036*#Add additional validation on arguments and map and out file being set.
+df9a2ce4bd770d7a8ba53e6b552f08b93cce72c2*#Chris Dunn*#chris@cidean.com*#1534880246*#Cleanup formatting and wrap main in try...catch
+c092143a578d3bf676af2c91d0c8a5a197b9fb52*#Chris Dunn*#chris@cidean.com*#1534873512*#Update readme to show solution split.
+61e9e812ae7f2d431dba1f0ec38653db205607be*#Chris Dunn*#chris@cidean.com*#1534873199*#Add command line args to set parameters and filenames for in/output.
+6f4e52ff07a7f84456f1ab19338106a326879817*#Chris Dunn*#chris@cidean.com*#1534872384*#Split solution into core library and console runner.
+5631b563a0eb7ecf034affe52b44f409955a54b3*#Chris Dunn*#chris@cidean.com*#1534865301*#Move xmlUrl root Add so invalid document not added to output.
+6968df20fa832d361f06d401360853c30a8d3349*#Chris Dunn*#chris@cidean.com*#1534864875*#Handle invalid path for list datamapitem.
+60f797941208299d2aaca78893226f6137ef3696*#Chris Dunn*#chris@cidean.com*#1534864569*#Handle Path not found for DataMapItem as empty text
+731047295e6b8f329721c86248bcea3b8f686b85*#Chris Dunn*#chris@cidean.com*#1534864141*#Exception handling and logging for file not found.
+c9688da92a591b23a8eb5c507b2fb5845910b5b8*#Chris Dunn*#chris@cidean.com*#1534863395*#Add function ExecuteDataMapItems to handle children map items from execute method.
+88a724e7eabb7ac2984d64c8c9c42a87af7b8761*#Chris Dunn*#chris@cidean.com*#1534861248*#Change scrape event to eventlogged vs actionlogged.  Record scrape log events.
+d4e77bf3bbd3353a6fea6223397e6b24fd24f163*#Chris Dunn*#chris@cidean.com*#1534860176*#update gitignore to ignore local data files
+a35c3153c2858df12ea1ab79213b82204d70923d*#Chris Dunn*#chris@cidean.com*#1534860119*#Fix ActionCompletedArgs filename
+14b8dc87d6bc977f4ada48b5424307fe4ad9e74f*#Chris Dunn*#chris@cidean.com*#1534859918*#Add Action Completed Event Args
+15296e79985a56444382d67142d1cab093f059cd*#Chris Dunn*#chris@cidean.com*#1534858621*#Add readme file
+fc2a8188f448af84fa50032cc8545ff8a48039e2*#Chris Dunn*#chris@cidean.com*#1534858598*#Added readme file
+9dcd5687f5acfcebc87c051b207c89d96a955429*#Chris Dunn*#chris@cidean.com*#1534786749*#Add Delay in downloading pages to prevent server overload.
+339d2365591cf5bbd37b7afe0d59badd2694c6a6*#Chris Dunn*#chris@cidean.com*#1534783935*#Add Source Element in output listing url.
+a9294f689e1e912af1edf84ae073c9a56a3e7708*#Chris Dunn*#chris@cidean.com*#1534783457*#Add export function (write xml) of data to output file.
+8c83ec1ba114b565ba8ff4bfb949a4bfc38f9c7c*#Chris Dunn*#chris@cidean.com*#1534783429*#Change DataMap root element Name to attribute
+50b32bd489fce3e46f5e751db20628dbe3d37be4*#Chris Dunn*#chris@cidean.com*#1534781062*#Change to get element vs text item from document.  Traverse over all elements and map items.
+70aa4bafa3717e53c8c6f2732789e3234a900592*#Chris Dunn*#chris@cidean.com*#1534778935*#fix case on document
+e171c112eebb9c9590d2fd7660670ed9853dbf44*#Chris Dunn*#chris@cidean.com*#1534778759*#Add QuerySelector method
+9b4562b698f57a4992ba768bb5f34717815cc83e*#Chris Dunn*#chris@cidean.com*#1534778484*#Add exception handling to gethtmldocument
+bbf3a5eae869cb86143cf1444402cd1c8a1684e8*#Chris Dunn*#chris@cidean.com*#1534777972*#Add request headers to getHtmlDocument to appear as browser
+72314a44b5ed8f5f5a289add274dac4e010cb8ca*#Chris Dunn*#chris@cidean.com*#1534777918*#Added GetHtmlDocument to retrieve html document remote
+40971c79f7959b9a610faafdf858220b21dfba99*#Chris Dunn*#chris@cidean.com*#1534777439*#Added complete attributes and complex sub type to maps.
+21ad172625e82723254cafdc216fd73b3b48d525*#Chris Dunn*#chris@cidean.com*#1534774128*#Amazon Map Format update
+7bf059bbc071fc85353993f98c3e87c8c045f079*#Chris Dunn*#chris@cidean.com*#1534642874*#Fix case of xml element names
+cb1462609cb80702dc42a43f09c1879eb8be8e2c*#Chris Dunn*#chris@cidean.com*#1534642842*#modify execute to take datamap as parameter
+0667ee2ab1a027a77f25071be7e5992ac87e6fac*#Chris Dunn*#chris@cidean.com*#1534642807*#Add Xml Serialization/Deserialize to datamap from loadfile
+d6b02ebdb97f3aa2ddb0c0eb8a0a217191604bd9*#Chris Dunn*#chris@cidean.com*#1534614470*#Set basedirectory for debug and release.  Verify loading of datamap.
+ced24ee9a6d626887a51ad3e3fe63941b62dcb7a*#Chris Dunn*#chris@cidean.com*#1534520870*#added Sample datamap for amazon scraping
+77c196938a8bfea29d4ca2b2bd2382140caa3938*#Chris Dunn*#chris@cidean.com*#1534520097*#Add Scraper manager class
+b6a7ddfd4c61e26faa948b256ebf8d6d83ef04ef*#Chris Dunn*#chris@cidean.com*#1534519380*#Add basic DataMap for configuration
+0fad29e7d607bba39841a1fa9279849771af1580*#Chris Dunn*#chris@cidean.com*#1534518386*#Move files to src folder
+b8193c64a4a62653baeb1e36a810abaaabcf4af4*#Chris Dunn*#chris@cidean.com*#1534515087*#Added AngleSharp nuget package to parse html /css
+d1982b106548088ee8f0f71b08f27d542d4fb6b4*#Chris Dunn*#chris@cidean.com*#1534476296*#Welcome messaging and console scaffolding.
+e8c34b3d8fcc0fd4c4eca3470f4f9230fc52a5e9*#Chris Dunn*#chris@cidean.com*#1534475571*#Updated assembly info
+297cccbee03ccd860e8ff1b2af52c7a033b09ee0*#Chris Dunn*#chris@cidean.com*#1534475466*#Add project files.
+06021fe38a3fa5eab6df86fe8b3744566f830888*#Chris Dunn*#chris@cidean.com*#1534475464*#Add .gitignore and .gitattributes.
